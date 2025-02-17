@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+}
+
+.cell {
+  height: 75px;
+  width: 75px;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 500ms ease-in-out
+}
+
+.container{
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+}
+
+.cell:hover {
+  background-color: yellow;
+}
+                             
+
+body {
+  background-color: #02acca;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
