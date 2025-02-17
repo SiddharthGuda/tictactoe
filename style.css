@@ -5,7 +5,7 @@
 .cell {
   height: 75px;
   width: 75px;
-  background-color: tomato;
+  background-color: red;
   display: flex;
   justify-content: center;
   align-items: center;
